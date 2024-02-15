@@ -1,12 +1,15 @@
-<mat-card class="example-card">
-  <mat-card-header>
-    <mat-card-title-group>
 
-      <img mat-card-sm-image src="assets/imagens/avatar3.png" >
-    </mat-card-title-group>
-  </mat-card-header>
-  <mat-card-content>
-    A Jornada foi uma das melhores agências de viagens que eu já experimentei. O serviço ao cliente foi excepcional, e toda a equipe foi muito atenciosa e prestativa.
-  </mat-card-content>
-  <mat-card-title> João</mat-card-title>
-</mat-card>
+  <mat-card class="card-depoimento">
+    <div class="card-content">
+      <mat-card-header>
+        <mat-card-title-group>
+          <img mat-card-sm-image src="assets/imagens/avatar3.png" >
+        </mat-card-title-group>
+      </mat-card-header>
+      <mat-card-content>
+        {{ depoimento }}
+      </mat-card-content>
+    </div>
+    <mat-card-title>{{ autoria }}</mat-card-title>
+  </mat-card>
+
