@@ -32,15 +32,23 @@
   }
   .selecao-categoria {
     margin-top: 32px;
-    color: #1D1B20;
+    color: #111013;
+    mat-chip-option {
+      border: 1px solid #49454F14;
+
+    }
   }
   .modal-actions {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    gap: 10px;
+    margin: 25px 0;
     button {
       margin: 0 8px;
-      width: 100%;
+      width: 80%;
+    }
+    .basic-button{
+      background: #E8DEF8;
     }
   }
 }

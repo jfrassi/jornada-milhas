@@ -30,8 +30,16 @@
         </li>
       </ul>
     </div>
-  </div>
-  <div mat-dialog-actions>
-    <button mat-button mat-dialog-close>Close</button>
+    <div class="selecao-categoria">
+      <h3><strong>Categoria</strong></h3>
+      <mat-chip-listbox aria-label="Seleção de Categoria">
+        <mat-chip-option class="chip-categoria">One fish</mat-chip-option>
+        <mat-chip-option class="chip-categoria">Two fish</mat-chip-option>
+      </mat-chip-listbox>
+    </div>
+    <div class="modal-actions">
+      <button mat-flat-button class="basic-button">Cancelar</button>
+      <button mat-flat-button color="primary">Aplicar</button>
+    </div>
   </div>
 </section>
